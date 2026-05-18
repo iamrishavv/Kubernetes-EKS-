@@ -1,5 +1,4 @@
 # Kubernetes-EKS-
-Kubernetes EKS Cluster Setup README
 # AWS EKS Cluster Setup using eksctl
 
 ## Overview
@@ -67,10 +66,9 @@ sudo mv ./kubectl /usr/local/bin
 
 kubectl version --short --client
 
-Verify:
-
 kubectl version --client
-Step - 3 : Install AWS CLI
+
+
 
 AWS CLI is used to interact with AWS services.
 
@@ -87,6 +85,7 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 aws --version
+
 Step - 4 : Install eksctl
 
 eksctl is a CLI tool used to create and manage EKS clusters.
